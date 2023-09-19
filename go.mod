@@ -1,4 +1,4 @@
-module github.com/hakluke/hakrawler
+module github.com/hindu3310/cyberely
 
 go 1.16
 
