@@ -52,7 +52,7 @@ First, you'll need to [install go](https://golang.org/doc/install).
 
 Then run this command to download + compile cyberely:
 ```
-go install github.com/hakluke/cyberely@latest
+go install github.com/hindu3310/cyberely@latest
 ```
 
 You can now run `~/go/bin/cyberely`. If you'd like to just run `cyberely` without the full path, you'll need to `export PATH="~/go/bin/:$PATH"`. You can also add this line to your `~/.bashrc` file if you'd like this to persist.
@@ -60,7 +60,7 @@ You can now run `~/go/bin/cyberely`. If you'd like to just run `cyberely` withou
 ### Docker Install (from dockerhub)
 
 ```
-echo https://www.google.com | docker run --rm -i hakluke/cyberely:v2 -subs
+echo https://www.google.com | docker run --rm -i hindu3310/cyberely:v2 -subs
 ```
 
 ### Local Docker Install
@@ -68,10 +68,10 @@ echo https://www.google.com | docker run --rm -i hakluke/cyberely:v2 -subs
 It's much easier to use the dockerhub method above, but if you'd prefer to run it locally:
 
 ```
-git clone https://github.com/hakluke/cyberely
+git clone https://github.com/hindu3310/cyberely
 cd cyberely
-sudo docker build -t hakluke/cyberely .
-sudo docker run --rm -i hakluke/cyberely --help
+sudo docker build -t hindu3310/cyberely .
+sudo docker run --rm -i hindu3310/cyberely --help
 ```
 ### Kali Linux: Using apt
 
@@ -84,7 +84,7 @@ sudo apt install cyberely
 Then, to run cyberely:
 
 ```
-echo https://www.google.com | docker run --rm -i hakluke/cyberely -subs
+echo https://www.google.com | docker run --rm -i hindu3310/cyberely -subs
 ```
 
 ## Command-line options
